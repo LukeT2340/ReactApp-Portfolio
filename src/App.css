@@ -1,0 +1,47 @@
+body {
+  font-family: "Freeman", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  height: 5000px;
+  display: block;
+  justify-content: center;
+  background: linear-gradient(to bottom, #081c34 50%, #104687);
+  background-repeat: no-repeat;
+  --accent-color: #82d0d2;
+}
+
+/* ---- Each Section Shared Styling ---- */
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+  color: white;
+  height: 500px;
+  width: auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* ---------------------------- */
+
+.app-screenshots {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+}

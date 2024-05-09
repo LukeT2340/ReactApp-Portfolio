@@ -1,0 +1,73 @@
+/* ---- Navigation Bar Styling ---- */
+.nav-container {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Acme", sans-serif;
+    border-bottom: 1px solid gray;
+}
+
+.first-name {
+    font-size: larger;
+    color: white;
+}
+
+.last-name {
+    font-weight: lighter;
+    font-size: large;
+    color: var(--accent-color);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+nav .active {
+    color: #F8F8F8;
+    background-color: #4f81bd;
+}
+
+nav ul .on {
+    color: var(--accent-color);
+}
+
+#nav-home-link {
+    color: var(--accent-color);
+}
+
+.links a {
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    padding: 14px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--accent-color);
+}
+
+.links img {
+    display: block;
+    width: 60px; 
+    height: auto; 
+}
+
+/* ---------------------------- */

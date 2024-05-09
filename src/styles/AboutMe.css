@@ -1,0 +1,14 @@
+/* ---- About Me Section Styling ---- */
+
+.aboutme-container {
+    width: 500px;
+    height: auto;
+    font-size: 1.2em;
+  }
+  
+  
+  #aboutme-title {
+    color: #82d0d2;
+  }
+  
+  /* ---------------------------- */
